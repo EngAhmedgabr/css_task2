@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-image: url(Images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 95vh;
+    text-align: center;
+    overflow: hidden;
+}
+.parent .nav{
+    overflow: hidden;
+}
+.parent .nav .logo{
+    float: left;
+    margin-left:10px
+}
+.parent .nav .items ul li{
+    float: left;
+    padding: 20px 25px;
+}
+.parent .nav .logo img{
+    width: 150px;
+    margin-left: 70px;
+    margin-top:10px
+}
+.parent .nav .items ul{
+    list-style: none;
+    float: right;
+}
+.parent .nav .items{
+    color:white;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+}
+.parent .home{
+    color: #FFFFFF;
+    font-family: 'Alegreya Sans';
+    font-size: 24px;
+    margin-top: 320px;
+}
+.parent .home h1{
+    font-family: 'Alegreya';
+    font-size: 76px;
+    color: #FFFFFF;
+    margin: 10px 0px 18px;
+}
+.parent .home button{
+    padding:16px 28px
+}
+.parent .home .b1{
+    background-color: #8E7754;
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 16px;
+    padding: 12px 28px;
+    border:none;
+    border-radius: 5px;
+    height: 56px;
+    margin-top: 20px;
+}
+.parent .home .b2{
+    border: 1.6px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 16px;
+    border-radius: 5px;
+    height: 56px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.middle{
+    padding: 80px 250px;
+    overflow: hidden;
+}
+.middle .photo{
+    width:50%;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    float: left;
+    box-sizing: border-box;
+}
+.middle .photo img{
+    width:100%;
+}
+.middle .child{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+.middle .child h2{
+    color: #303030;
+    font-family: 'Alegreya';
+    font-size: 32px;
+    padding: 0px 0px 25px;
+}
+.middle .child p{
+    color: #686868;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+}
+.middle .child ul {
+    padding-top:20px;
+}
+.middle .child ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    color: #686868;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+}
+.location{
+    padding: 100px 250px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+}
+.location .child1{
+    width: 50%;
+    float: left;
+}
+.location .child1 h2{
+    padding-top:30px ;
+    padding-bottom: 25px;
+    color: #303030;
+    font-family: 'Alegreya';
+    font-size: 32px;
+}
+.location .child1 p{
+    color: #686868;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+}
+.location .child1 .two{
+    padding-top: 30px;
+}
+.location .child2{
+    width: 50%;
+    float: left;
+}
+.location .child2 img{
+    width: 100%;
+    padding: 30px;
+}
+.bottom{
+    padding: 100px 250px;
+    overflow: hidden;
+    text-align: center;
+}
+.bottom h2{
+    font-size: 30px;
+    color: #303030;
+    font-family: 'Alegreya';
+    padding: 25px;
+}
+.bottom p{
+    padding-bottom: 60px;
+    color: #686868;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+}
+.bottom .baby{
+    width:33.3333%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.bottom .baby img{
+    width:100%;
+}
+.bottom .baby h4{
+    font-size: 22px;
+    color: #303030;
+    font-family: 'Alegreya';
+    padding: 25px;
+}
+.contact{
+    padding: 100px 75px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.contact .baby1{
+    width:50%;
+    float: left;
+}
+.contact .baby2{
+    width:50%;
+    float:left;
+}
+.contact .baby2 iframe{
+    width:100%;
+}
+.lower{
+    overflow: hidden;
+    padding: 100px 75px;
+}
+.lower .son{
+    width:25%;
+    float:left;
+}
+.baner{
+    background-color: #303030;
+    padding: 100px 75px;
+    overflow: hidden;
+    text-align: center;
+}
+.baner p{
+    color: white;
+    font-size: 12px;
+}
+.baner img{
+    width: 100%;
+}
+.baner .baner2{
+    width: 25%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
